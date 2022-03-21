@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "slidev": {
+    "colorSchema": "light"
+  },
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export",
+    "textlint": "textlint ./slides.md"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.27.18",
+    "@slidev/theme-apple-basic": "^0.20.0",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "playwright-chromium": "^1.17.2",
+    "slidev-theme-light-icons": "^1.0.2",
+    "slidev-theme-penguin": "^1.3.4",
+    "slidev-theme-unicorn": "^1.0.21"
+  },
+  "name": "sample-remix",
+  "devDependencies": {
+    "textlint": "^12.1.1",
+    "textlint-rule-preset-smarthr": "^1.12.0"
+  }
+}

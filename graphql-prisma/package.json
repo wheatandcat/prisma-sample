@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "codegen": "graphql-codegen",
-    "dev": "npx ts-node index.ts"
+    "dev": "ts-node-dev --respawn src/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -14,16 +14,17 @@
     "@graphql-codegen/cli": "^2.6.2",
     "@graphql-codegen/typescript": "^2.4.8",
     "@graphql-codegen/typescript-resolvers": "^2.6.1",
-    "@types/node": "^17.0.21",
-    "prettier": "2.6.0",
-    "prisma": "^3.11.0",
-    "ts-node": "^10.7.0",
-    "typescript": "^4.6.2",
     "@types/eslint": "^7.28.0",
+    "@types/node": "^17.0.21",
     "@typescript-eslint/eslint-plugin": "^4.28.2",
     "@typescript-eslint/eslint-plugin-tslint": "^4.28.2",
     "eslint": "^7.30.0",
-    "eslint-config-prettier": "^8.3.0"
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "2.6.0",
+    "prisma": "^3.11.0",
+    "ts-node": "^10.7.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.2"
   },
   "dependencies": {
     "@graphql-tools/graphql-file-loader": "^7.3.5",

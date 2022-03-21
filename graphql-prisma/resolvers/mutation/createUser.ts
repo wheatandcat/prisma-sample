@@ -24,5 +24,7 @@ export const createUser: MutationResolvers['createUser'] = async (_, args) => {
     },
   });
 
+  
+
   return createdUser;
 };
